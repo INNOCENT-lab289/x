@@ -1,8 +1,11 @@
-# x
-cdjdadajjjjjjjj
-n;j
+// Turn ON a light using Arduino
 
-sjf
-fjsl
-mfk
-This project is designed to provide a clear, practical solution to a defined problem by combining thoughtful design, efficient implementation, and user-focused functionality. It demonstrates key concepts such as planning, execution, and evaluation while following best practices for clarity, organization, and maintainability. The repository includes all necessary resources, documentation, and instructions to understand, run, and build upon the project.
+int lightPin = 13;   // Pin connected to the light
+
+void setup() {
+  pinMode(lightPin, OUTPUT);   // Set pin as output
+}
+
+void loop() {
+  digitalWrite(lightPin, HIGH);  // Turn ON the light
+}
